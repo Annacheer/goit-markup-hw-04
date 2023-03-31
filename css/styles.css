@@ -304,18 +304,23 @@ body {
 .customers-list {
   display: flex;
 }
-.custom-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.custom-item {
   width: 168px;
   height: 88px;
-  border: 1px solid var(--customers-color);
-  border-radius: 4px;
 }
 .custom-item:not(:last-child) {
   margin-right: 24px;
 }
+.custom-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--customers-color);
+  border-radius: 4px;
+}
+
 .custom-link:hover {
   border: 1px solid var(--pressed-state-color);
 }
